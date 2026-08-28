@@ -88,7 +88,7 @@ export const TIM_KKN = [
     role: "Koordinator Desa",
     major: "Ilmu Al-Qur'an dan Tafsir",
     origin: "Sumatra Utara",
-    instagram: "#",
+    instagram: "https://www.instagram.com/ahmat_rifaizen14?igsi=MTJxcmc5NXNncnRpMQ==",
   },
   {
     id: 2,
@@ -96,7 +96,7 @@ export const TIM_KKN = [
     role: "Bendahara",
     major: "Manajemen Dakwah",
     origin: "Sumatera Utara",
-    instagram: "#",
+    instagram: "https://www.instagram.com/arianti.956?igsi=andxcXRqN21qbTZ0",
   },
   {
     id: 3,
@@ -104,7 +104,7 @@ export const TIM_KKN = [
     role: "Sekretaris",
     major: "Ilmu Hukum",
     origin: "Duri",
-    instagram: "#",
+    instagram: "https://www.instagram.com/anindyaw._?igsi=N2xkbWYzOHc0eHY4",
   },
   {
     id: 4,
@@ -112,7 +112,7 @@ export const TIM_KKN = [
     role: "Sekretaris",
     major: "Manajemen",
     origin: "Rokan Hilir",
-    instagram: "#",
+    instagram: "https://www.instagram.com/yohan.page?igsi=dmFrYjBydzZjazB3",
   },
   {
     id: 5,
@@ -120,7 +120,7 @@ export const TIM_KKN = [
     role: "Publikasi, Desain, & Dokumentasi",
     major: "Akuntansi",
     origin: "Bukittinggi",
-    instagram: "#",
+    instagram: "https://www.instagram.com/jasyanfakhrii?igsi=NGM3ZG5rYjl1eGwx",
   },
   {
     id: 6,
@@ -128,7 +128,7 @@ export const TIM_KKN = [
     role: "Publikasi, Desain, & Dokumentasi",
     major: "Teknik Informatika",
     origin: "Sungai Pagar",
-    instagram: "#",
+    instagram: "https://www.instagram.com/irn.nft?igsi=MW9iaDZ1NHB4M2ozNw==",
   },
   {
     id: 7,
@@ -136,7 +136,7 @@ export const TIM_KKN = [
     role: "Seksi Acara",
     major: "Pendidikan Agama Islam",
     origin: "Rokan Hilir",
-    instagram: "https://www.instagram.com/ntaazzhrr_/?utm_source=ig_web_button_share_sheet",
+    instagram: "https://www.instagram.com/ntaazzhrr_?igsi=cHdsYzF2ajlveTNi",
   },
   {
     id: 8,
@@ -144,7 +144,7 @@ export const TIM_KKN = [
     role: "Seksi Acara",
     major: "Pendidikan Matematika",
     origin: "Tanjung Alai",
-    instagram: "#",
+    instagram: "https://www.instagram.com/syaqiyatul_aisya17?igsi=MW9reGl4a2Y0aXE4Mw==",
   },
   {
     id: 9,
@@ -152,7 +152,7 @@ export const TIM_KKN = [
     role: "Seksi Acara",
     major: "Pendidikan Bahasa Arab",
     origin: "Binamang",
-    instagram: "#",
+    instagram: "https://www.instagram.com/serliaisyah?igsi=MXQ2ZnNvMHZrY3Nudg==",
   },
   {
     id: 10,
@@ -160,7 +160,7 @@ export const TIM_KKN = [
     role: "Hubungan Masyarakat",
     major: "Pendidikan Guru Madrasah Ibtidaiyah",
     origin: "Tanjung Alai",
-    instagram: "#",
+    instagram: "https://www.instagram.com/sy4t14_sya?igsi=MW9tajYyYnBvaWRxdQ%3D%3D&utm_source=qr",
   },
   {
     id: 11,
@@ -168,7 +168,7 @@ export const TIM_KKN = [
     role: "Hubungan Masyarakat",
     major: "Perbankan Syariah",
     origin: "Kampa",
-    instagram: "#",
+    instagram: "https://www.instagram.com/hrlanggasprynto?igsi=MTJ2NzViMjQ5N3hnMg%3D%3D&utm_source=qr",
   }
 ];
 
