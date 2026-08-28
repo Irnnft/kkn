@@ -107,7 +107,7 @@ export function ProfilDesa() {
               {PROFIL_DESA.orbitasi.map((item, index) => (
                 <div key={index} className="flex flex-col md:flex-row justify-between bg-white/40 p-4 rounded-lg">
                   <span className="font-medium pr-4">{item.label}</span>
-                  <span className="text-forest md:text-right mt-2 md:mt-0 font-semibold">{item.value}</span>
+                  <span className="text-forest md:text-right mt-2 md:mt-0 font-semibold whitespace-nowrap">{item.value}</span>
                 </div>
               ))}
             </div>
@@ -128,7 +128,7 @@ export function ProfilDesa() {
                 {PROFIL_DESA.lembagaPemerintahan.pemerintahDesa.map((item, index) => (
                   <div key={index} className="flex justify-between border-b border-forest/10 pb-2 last:border-0">
                     <span className="pr-4">{item.label}</span>
-                    <span className="font-semibold text-forest text-right">{item.value}</span>
+                    <span className="font-semibold text-forest text-right whitespace-nowrap">{item.value}</span>
                   </div>
                 ))}
               </div>
@@ -141,7 +141,7 @@ export function ProfilDesa() {
                 {PROFIL_DESA.lembagaPemerintahan.bpd.map((item, index) => (
                   <div key={index} className="flex justify-between border-b border-forest/10 pb-2 last:border-0">
                     <span className="pr-4">{item.label}</span>
-                    <span className="font-semibold text-forest text-right">{item.value}</span>
+                    <span className="font-semibold text-forest text-right whitespace-nowrap">{item.value}</span>
                   </div>
                 ))}
               </div>
@@ -163,7 +163,7 @@ export function ProfilDesa() {
                 {PROFIL_DESA.kependudukan.jumlahPenduduk.map((item, index) => (
                   <div key={index} className="flex justify-between border-b border-forest/10 pb-2 last:border-0">
                     <span className="pr-4">{item.label}</span>
-                    <span className="font-semibold text-forest text-right">{item.value}</span>
+                    <span className="font-semibold text-forest text-right whitespace-nowrap">{item.value}</span>
                   </div>
                 ))}
               </div>

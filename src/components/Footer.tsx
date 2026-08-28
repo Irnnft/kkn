@@ -92,7 +92,7 @@ export function Footer() {
 
         <div className="text-center text-xs text-cream/50 flex flex-col md:flex-row justify-between items-center">
           <p>&copy; {new Date().getFullYear()} Desa Pongkai Istiqomah. Hak Cipta Dilindungi.</p>
-          <p className="mt-2 md:mt-0">Dibuat dengan niat dan kerja keras irfan di tengah malam 2026</p>
+          <p className="mt-2 md:mt-0">Dibuat Oleh Mahasiswa KKN Dari UIN SUSKA RIAU 2026</p>
         </div>
       </div>
     </footer>
