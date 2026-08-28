@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FBF9F5;
+  --color-forest: #243B2E;
+  --color-sage: #8FA89B;
+  --color-charcoal: #333333;
+
+  --font-cormorant: var(--font-cormorant), serif;
+  --font-playfair: var(--font-playfair), serif;
+  --font-jakarta: var(--font-jakarta), sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-charcoal);
+  }
+}
