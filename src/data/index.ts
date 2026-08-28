@@ -175,21 +175,75 @@ export const TIM_KKN = [
 export const PROGRAM_KKN = [
   {
     id: 1,
-    title: "Penyuluhan Stunting",
+    title: "Mengajar Anak SD",
     status: "Selesai",
-    outcome: "Dihadiri oleh 50 ibu hamil dan balita.",
+    outcome: "",
   },
   {
     id: 2,
-    title: "Digitalisasi UMKM",
-    status: "Berjalan",
-    outcome: "Pembuatan akun e-commerce untuk 10 UMKM.",
+    title: "Mengajar Anak TK",
+    status: "Selesai",
+    outcome: "",
   },
   {
     id: 3,
-    title: "Kerja Bakti Desa",
+    title: "Goro Masjid Nurul Istiqomah",
     status: "Selesai",
-    outcome: "Pembersihan lingkungan jalan utama dan parit.",
+    outcome: "",
+  },
+  {
+    id: 4,
+    title: "Goro Desa",
+    status: "Selesai",
+    outcome: "",
+  },
+  {
+    id: 5,
+    title: "Goro Lapangan",
+    status: "Selesai",
+    outcome: "",
+  },
+  {
+    id: 6,
+    title: "Proker 17an gabungan dengan univ up",
+    status: "Selesai",
+    outcome: "",
+  },
+  {
+    id: 7,
+    title: "Dekorasi TK & SD",
+    status: "Selesai",
+    outcome: "",
+  },
+  {
+    id: 8,
+    title: "Sosialisasi Menabung Sejak Dini di SD",
+    status: "Selesai",
+    outcome: "",
+  },
+  {
+    id: 9,
+    title: "Sosialisasi Bullying di SD",
+    status: "Selesai",
+    outcome: "",
+  },
+  {
+    id: 10,
+    title: "Lomba Memperingati Maulid Nabi ",
+    status: "Selesai",
+    outcome: "",
+  },
+  {
+    id: 11,
+    title: "Sosialisasi Bijak Menggunakan Media Sosial",
+    status: "Selesai",
+    outcome: "",
+  },
+  {
+    id: 12,
+    title: "Sosialisasi bahayanya pishing & Judol",
+    status: "Selesai",
+    outcome: "",
   },
 ];
 
