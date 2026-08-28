@@ -90,6 +90,12 @@ export function Footer() {
           </div>
         </div>
 
+        <div className="flex justify-center items-center gap-6 mb-8 border-b border-cream/10 pb-8">
+          <img src="/images/logo/LOGO UIN.png" alt="Logo UIN Suska Riau" className="h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+          <img src="/images/logo/LOGO KKN.png" alt="Logo KKN" className="h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+          <img src="/images/logo/LOGO DESA.png" alt="Logo Desa Pongkai Istiqomah" className="h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+        </div>
+
         <div className="text-center text-xs text-cream/50 flex flex-col md:flex-row justify-between items-center">
           <p>&copy; {new Date().getFullYear()} Desa Pongkai Istiqomah. Hak Cipta Dilindungi.</p>
           <p className="mt-2 md:mt-0">Dibuat Oleh Mahasiswa KKN Dari UIN SUSKA RIAU 2026</p>

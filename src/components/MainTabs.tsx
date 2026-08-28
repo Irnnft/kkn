@@ -10,26 +10,45 @@ export function MainTabs() {
   const [activeTab, setActiveTab] = useState<"desa" | "kkn">("desa");
 
   useEffect(() => {
+    const scrollToHash = (hash: string) => {
+      setTimeout(() => {
+        const element = document.querySelector(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100); // Wait for React to render the newly visible tab
+    };
+
     const handleHashChange = () => {
       const hash = window.location.hash;
       if (hash === "#kkn") {
         setActiveTab("kkn");
+        scrollToHash(hash);
       } else if (hash === "#profil" || hash === "#jelajah" || hash === "#cerita") {
         setActiveTab("desa");
+        scrollToHash(hash);
       }
     };
 
-    // Initial check
-    handleHashChange();
+    // Initial check without smooth scroll
+    const initialHash = window.location.hash;
+    if (initialHash === "#kkn") setActiveTab("kkn");
+    else if (["#profil", "#jelajah", "#cerita"].includes(initialHash)) setActiveTab("desa");
 
     window.addEventListener("hashchange", handleHashChange);
+    
     // Overriding native click on anchors to ensure state updates before scroll
     const handleAnchorClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
       const anchor = target.closest("a");
       if (anchor && anchor.hash) {
-        if (anchor.hash === "#kkn") setActiveTab("kkn");
-        if (["#profil", "#jelajah", "#cerita"].includes(anchor.hash)) setActiveTab("desa");
+        if (anchor.hash === "#kkn") {
+          setActiveTab("kkn");
+          scrollToHash(anchor.hash);
+        } else if (["#profil", "#jelajah", "#cerita"].includes(anchor.hash)) {
+          setActiveTab("desa");
+          scrollToHash(anchor.hash);
+        }
       }
     };
     document.addEventListener("click", handleAnchorClick);

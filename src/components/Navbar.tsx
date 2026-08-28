@@ -39,8 +39,9 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="flex items-center justify-between">
-          <a href="#beranda" className="font-cormorant text-2xl font-bold tracking-tight text-forest shrink-0">
-            Pongkai <span className="font-playfair italic font-medium">Istiqomah</span>
+          <a href="#beranda" className="flex items-center gap-3 font-cormorant text-2xl font-bold tracking-tight text-forest shrink-0">
+            <img src="/images/logo/LOGO DESA.png" alt="Logo Desa Pongkai Istiqomah" className="h-8 md:h-10 w-auto object-contain" />
+            <span>Pongkai <span className="font-playfair italic font-medium">Istiqomah</span></span>
           </a>
 
           {/* Desktop Nav */}
