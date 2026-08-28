@@ -17,13 +17,13 @@ export function KilasKKN() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          {/* Kolom 1 & 2: Tim & Program */}
-          <div className="lg:col-span-2 space-y-12">
+        <div className="space-y-20">
+          {/* Kolom Tim & Program */}
+          <div className="max-w-4xl mx-auto space-y-16">
             
             {/* Tim KKN */}
             <div>
-              <h3 className="font-cormorant text-3xl font-bold text-forest mb-6 border-b border-black/5 pb-2">
+              <h3 className="font-cormorant text-3xl font-bold text-forest mb-6 border-b border-black/5 pb-2 text-center">
                 Tim Pengabdi
               </h3>
               
@@ -83,7 +83,7 @@ export function KilasKKN() {
 
             {/* Program Kerja */}
             <div>
-              <h3 className="font-cormorant text-3xl font-bold text-forest mb-6 border-b border-black/5 pb-2">
+              <h3 className="font-cormorant text-3xl font-bold text-forest mb-6 border-b border-black/5 pb-2 text-center">
                 Program Kerja
               </h3>
               <div className="relative border-l border-sage/40 ml-3 space-y-8">
@@ -118,22 +118,25 @@ export function KilasKKN() {
             </div>
           </div>
 
-          {/* Kolom 3: Photo Dump / Gallery */}
-          <div className="lg:col-span-1">
-            <h3 className="font-cormorant text-3xl font-bold text-forest mb-6 border-b border-black/5 pb-2">
-              Galeri
-            </h3>
-            <div className="columns-2 gap-4">
+          {/* Photo Dump / Gallery */}
+          <div>
+            <div className="text-center mb-10">
+              <h3 className="font-cormorant text-4xl font-bold text-forest mb-4">
+                Galeri <span className="font-playfair italic">Dokumentasi</span>
+              </h3>
+              <p className="text-charcoal/70 max-w-2xl mx-auto">Potret kegiatan dan kenangan berharga selama masa pengabdian kami di desa.</p>
+            </div>
+            <div className="columns-2 sm:columns-3 md:columns-4 lg:columns-5 gap-4">
               {GALERI_FOTO.map((foto, i) => (
                 <motion.div
                   key={i}
                   initial={{ opacity: 0, scale: 0.9 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
-                  transition={{ delay: i * 0.1 }}
-                  className="relative rounded-xl overflow-hidden shadow-sm break-inside-avoid mb-4 block"
+                  transition={{ delay: (i % 10) * 0.1 }}
+                  className="relative rounded-xl overflow-hidden shadow-sm break-inside-avoid mb-4 block group"
                 >
-                  <img src={foto} alt={`Dokumentasi ${i+1}`} className="w-full h-auto hover:scale-105 transition-transform duration-500" />
+                  <img src={foto} alt={`Dokumentasi ${i+1}`} loading="lazy" className="w-full h-auto group-hover:scale-105 transition-transform duration-500 bg-gray-100" />
                 </motion.div>
               ))}
             </div>
