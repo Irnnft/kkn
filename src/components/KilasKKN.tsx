@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { TIM_KKN, PROGRAM_KKN, GALERI_FOTO } from "@/data";
-import { CheckCircle2, CircleDashed, AtSign } from "lucide-react";
+import { CheckCircle2, CircleDashed } from "lucide-react";
 
 export function KilasKKN() {
   return (
@@ -46,15 +46,12 @@ export function KilasKKN() {
                   initial={{ opacity: 0, y: 10 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  className="flex flex-col items-center text-center p-4 bg-cream rounded-2xl border border-black/5 hover:shadow-md transition-shadow w-[48%] sm:w-[31%] lg:w-[23%]"
+                  className="flex flex-col items-center justify-center h-full text-center p-4 bg-cream rounded-2xl border border-black/5 hover:shadow-md transition-shadow w-[48%] sm:w-[31%] lg:w-[23%]"
                 >
                   <h4 className="font-bold text-forest text-sm md:text-base leading-tight mb-1">{TIM_KKN[0].name}</h4>
                   <p className="text-[10px] md:text-xs font-semibold text-sage mb-1">{TIM_KKN[0].role}</p>
                   <p className="text-[10px] md:text-xs text-charcoal/60 mb-0.5">{TIM_KKN[0].major}</p>
-                  <p className="text-[10px] md:text-xs text-charcoal/60 mb-3">{TIM_KKN[0].origin}</p>
-                  <a href={`https://instagram.com/${TIM_KKN[0].instagram.substring(1)}`} target="_blank" rel="noreferrer" className="text-sage hover:text-forest transition-colors mt-auto">
-                    <AtSign size={16} />
-                  </a>
+                  <p className="text-[10px] md:text-xs text-charcoal/60">{TIM_KKN[0].origin}</p>
                 </motion.div>
               </div>
 
@@ -67,15 +64,12 @@ export function KilasKKN() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: i * 0.05 }}
-                    className="flex flex-col items-center text-center p-4 bg-cream rounded-2xl border border-black/5 hover:shadow-md transition-shadow"
+                    className="flex flex-col items-center justify-center h-full text-center p-4 bg-cream rounded-2xl border border-black/5 hover:shadow-md transition-shadow"
                   >
                     <h4 className="font-bold text-forest text-sm md:text-base leading-tight mb-1">{member.name}</h4>
                     <p className="text-[10px] md:text-xs font-semibold text-sage mb-1">{member.role}</p>
                     <p className="text-[10px] md:text-xs text-charcoal/60 mb-0.5">{member.major}</p>
-                    <p className="text-[10px] md:text-xs text-charcoal/60 mb-3">{member.origin}</p>
-                    <a href={`https://instagram.com/${member.instagram.substring(1)}`} target="_blank" rel="noreferrer" className="text-sage hover:text-forest transition-colors mt-auto">
-                      <AtSign size={16} />
-                    </a>
+                    <p className="text-[10px] md:text-xs text-charcoal/60">{member.origin}</p>
                   </motion.div>
                 ))}
               </div>

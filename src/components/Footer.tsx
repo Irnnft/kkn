@@ -1,8 +1,8 @@
-import { MapPin, Mail, Phone } from "lucide-react";
+
 
 export function Footer() {
   return (
-    <footer id="kontak" className="bg-forest text-cream py-16 px-6">
+    <footer id="social-media" className="bg-forest text-cream py-16 px-6">
       <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 border-b border-white/10 pb-12 mb-8">
           
@@ -16,19 +16,47 @@ export function Footer() {
           </div>
 
           <div className="space-y-4">
-            <h3 className="font-bold text-lg mb-4">Kontak Desa</h3>
+            <h3 className="font-bold text-lg mb-4">Social Media Pemdes</h3>
             <ul className="space-y-3 text-sm text-cream/70">
-              <li className="flex items-start">
-                <MapPin size={18} className="mr-3 shrink-0 mt-0.5" />
-                <span>Desa Pongkai Istiqomah, Kec. XIII Koto Kampar, Kab. Kampar, Riau</span>
+              <li className="flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="mr-3 shrink-0"
+                >
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                </svg>
+                <a href="https://www.instagram.com/pemdespongkaiistiqomah?igsi=MXRuZnBlb3pyOXZxOA==" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
+                  Instagram
+                </a>
               </li>
               <li className="flex items-center">
-                <Phone size={18} className="mr-3 shrink-0" />
-                <span>+62 812 3456 7890</span>
-              </li>
-              <li className="flex items-center">
-                <Mail size={18} className="mr-3 shrink-0" />
-                <span>kontak@pongkaiistiqomah.desa.id</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="mr-3 shrink-0"
+                >
+                  <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+                </svg>
+                <a href="https://www.tiktok.com/@pemdes.pongkai.is?_r=1&_t=ZS-99HqVdgfb1B" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
+                  TikTok
+                </a>
               </li>
             </ul>
           </div>

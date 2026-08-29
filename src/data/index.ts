@@ -74,11 +74,42 @@ export const LOKASI_DESA = [
 ];
 
 export const SEJARAH_DESA = [
-  "Penyebaran (melebarnya) warga Pongkai terjadi karena adanya pilihan skema ganti rugi dan relokasi saat perkampungan tua mereka ditenggelamkan pada era 1990-an untuk pembangunan Waduk PLTA Koto Panjang.",
-  "Saat proyek bendungan dimulai, pemerintah menawarkan beberapa skema pemindahan. Perbedaan preferensi mata pencaharian, ikatan emosional terhadap tanah ulayat, serta kesiapan keluarga membuat masyarakat Pongkai terbagi ke dalam tiga kelompok utama. Kelompok pertama memilih Pola Transmigrasi Perkebunan (PIR-Trans), dipindahkan ke wilayah selatan Kampar dan mendirikan Desa Mayang Pongkai pada tahun 1997. Kelompok kedua menerima Pola Relokasi Terarah (UPT II) ke pedalaman Kampar, mendirikan Desa Pongkai (UPT II Selatan Sibiruang). Sedangkan kelompok ketiga memilih Pola Pindah Bebas atau mandiri, bertahan di tepian genangan waduk yang kemudian melahirkan Desa Pongkai Istiqamah.",
-  "Nama \"Istiqamah\" lahir dari keteguhan sikap masyarakatnya yang bersikeras untuk tetap tinggal sedekat mungkin dengan tanah leluhur mereka. Mereka menolak dipindahkan ke lokasi transmigrasi yang jauh karena keterikatan batin dan adat dengan Sungai Kampar serta tanah ulayat mereka.",
-  "Warga memilih ganti rugi bebas dan membuka pemukiman baru di perbukitan yang berada persis di bibir danau buatan PLTA Koto Panjang. Dari yang awalnya bertani di lembah sungai yang subur, warga Pongkai Istiqamah beradaptasi menjadi nelayan tangkap dan pengelola budidaya perikanan keramba jaring apung di waduk.",
-  "Letak desa yang tepat di pinggir waduk membuat warga masih berada dekat dengan kenangan kampung lama mereka. Saat musim kemarau panjang ketika debit air danau surut drastis, sisa-sisa fondasi rumah batu, sumur tua, dan makam leluhur Desa Pongkai lama terkadang muncul kembali ke permukaan."
+  {
+    title: "1. Titik Awal: Penenggelaman Kampung dan Tiga Jalur Relokasi",
+    content: [
+      { type: "p", text: "Pembangunan proyek Waduk PLTA Koto Panjang pada era 1990-an menjadi titik balik besar bagi masyarakat Kenegarian Pongkai lama. Ketika kawasan perkampungan leluhur mereka dipastikan akan ditenggelamkan oleh genangan waduk, masyarakat dihadapkan pada pilihan skema relokasi. Dari peristiwa inilah gelombang penyebaran warga terbagi ke dalam tiga kelompok utama:" },
+      { type: "ul", items: [
+        "SP1 Mayang Pongkai: Kelompok warga yang menerima skema transmigrasi penuh (PIR-Trans) dan dipindahkan ke wilayah Kampar Kiri.",
+        "Pongkai Selatan / Pongkai Tabing (UPT II): Kelompok warga yang dipindahkan ke kawasan pemukiman terarah di Sibiruang / Koto Kampar Hulu.",
+        "Pongkai Istiqamah (Pindah Bebas): Kelompok warga yang menolak dipindahkan jauh dan bertekad bertahan secara mandiri di sekitar tanah ulayat mereka."
+      ]}
+    ]
+  },
+  {
+    title: "2. Jerih Payah Membuka Lahan dan Janji yang Meleset",
+    content: [
+      { type: "p", text: "Berbeda dengan lokasi transmigrasi yang telah disiapkan infrastrukturnya, warga yang memilih pindah bebas harus berjuang secara swadaya. Mereka berjalan kaki sejauh 13 km dari kampung lama menembus perbukitan untuk membuka lahan baru." },
+      { type: "p", text: "Awalnya, pihak PT Persero menjanjikan fasilitas yang setara dengan pemukiman transmigrasi—mulai dari SPP hingga 9 bahan pokok yang diuangkan. Namun, setibanya di lokasi baru, janji tersebut tidak terealisasi. Tanpa bantuan awal yang layak, warga mengandalkan gotong royong penuh untuk bertahan hidup. Tekanan semakin berat ketika proses pembangunan awal desa ini sempat diwarnai intimidasi dari pemerintah daerah. Kendati demikian, tekad para pendiri tetap bulat agar kampung baru mereka dapat berdiri setara dengan desa-desa tetangga seperti Batu Besurat, Binamang, Muara Takus, dan Koto Tuo." }
+    ]
+  },
+  {
+    title: "3. Perjuangan Administrasi dan Peresmian Desa",
+    content: [
+      { type: "p", text: "Pada periode pasca-1998, para tokoh masyarakat mulai memperjuangkan status administratif pemukiman mereka menjadi desa persiapan, meskipun administrasi desa induk saat itu masih berada di bawah Mayang Pongkai dan Pongkai Tabing. Perjuangan birokrasi ke tingkat kabupaten dan provinsi tersebut didampingi oleh tokoh masyarakat bernama Pak Ribut Susanto dari Payung Negeri, hingga akhirnya pemukiman ini berhasil memperoleh SK Penuh (definitif) setelah tahun 2000." },
+      { type: "p", text: "Pada awal tahun 2000, kawasan ini belum memiliki sarana vital seperti gedung SD, masjid, maupun akses jalan yang layak. Dukungan pembangunan fasilitas dasar tersebut kemudian hadir melalui peran Pj. Bupati Kampar saat itu." },
+      { type: "p", text: "Puncaknya, pada Mei 2000, desa ini diresmikan melalui tradisi adat pemotongan kerbau. Nama Pongkai Istiqamah disematkan secara resmi sebagai simbol atas kegigihan, keteguhan hati, dan keuletan (istiqamah) para pendirinya yang pantang menyerah membangun desa dari nol." }
+    ]
+  },
+  {
+    title: "4. Pengukuhan Adat dan Pelestarian Hutan Ulayat",
+    content: [
+      { type: "p", text: "Seiring peresmian desa, tatanan kelembagaan adat dan struktur perangkat desa mulai dibentuk secara definitif. Struktur ninik mamak dan tokoh adat dikukuhkan oleh Datuk Inyok Dubalai Andiko 44, yang menegaskan legitimasi adat istiadat Minangkabau di kenegarian tersebut." },
+      { type: "p", text: "Untuk menopang ekonomi dan lingkungan, masyarakat aktif menggerakkan reboisasi mandiri serta mengelola program perkebunan, seperti GNRHL (didukung pendanaan kehutanan/JICA) dan lahan agrobisnis seluas 500 hektar yang sebagian hasilnya dialokasikan untuk pembangunan masjid." },
+      { type: "p", text: "Masyarakat Pongkai Istiqamah memegang teguh prinsip untuk tidak menjual tanah wilayah yang telah ditebus dengan tetesan keringat para pendiri. Mereka juga berkomitmen menjaga kawasan hutan ulayat seluas 2.700 ha di sekitar waduk agar tidak digunduli, menjadikannya warisan ekologis dan adat bagi generasi mendatang." },
+      { type: "p", text: "Semangat perjuangan ini diabadikan dalam falsafah hidup bersama:" },
+      { type: "blockquote", text: "\"Tatangkuik samo makan tanah, tacalontang samo minum ayu, sadontiong bak bosi, saciok bak ayam.\"\n(Tertelungkup sama-sama makan tanah, tertelentang sama-sama minum air; seia sekata, seirama dalam melangkah, menanggung suka dan duka secara bersama-sama)." }
+    ]
+  }
 ];
 
 export const TIM_KKN = [

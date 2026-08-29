@@ -11,7 +11,7 @@ const NAV_LINKS = [
   { name: "Jelajah", href: "#jelajah" },
   { name: "Cerita", href: "#cerita" },
   { name: "KKN", href: "#kkn" },
-  { name: "Kontak", href: "#kontak" },
+  { name: "Social Media", href: "#social-media" },
 ];
 
 export function Navbar() {
